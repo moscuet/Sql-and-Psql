@@ -24,6 +24,7 @@ $db = pg_connect(
     user=sqfgksfzywzsiu 
     password=a3cdd44eb09149e491ed1c95cf71a6ecac8fdd67d2400421617a4c17c0da841f"
 );
+// DB crredential was shared here for educational purpose and Heroku free subscription plan  'hobby-dev' was used to deploy the DB.
 // $query = "INSERT INTO todo VALUES ('$_POST[todo_id]','$_POST[todo_name]',
 //$query = "INSERT INTO users VALUES (uuid_generate_v4 (),'mos11@gmail.com', crypt('mos11', gen_salt('bf')), current_timestamp,current_timestamp)";
 // $query = "SELECT * from USERS";
